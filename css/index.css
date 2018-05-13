@@ -1,0 +1,71 @@
+html,body,div,canvas,button{
+    margin: 0;
+    padding: 0;
+}
+canvas{
+    /*border:1px solid red;*/
+    margin: 40px auto 20px;
+    display: block;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float: right;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.wrap{
+    width: 700px;
+    margin: 10px auto;
+    text-align: center;
+}
+.top{
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title>span{
+    color: lightskyblue;
+    font-size: 60px;
+}
+
+
+.level{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.best{
+    font-size: 20px;
+    color: blue;
+    padding: 10px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background:lightblue;
+    font-size: 20px;
+    border-radius:10px;
+}
+
+@font-face{
+    font-family:'Mdt';
+    src:url('../source/mdt.ttf');
+}
