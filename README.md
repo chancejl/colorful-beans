@@ -122,3 +122,4 @@ smallDrop.prototype = {
 （3）碰撞检测 
 （4）本地存储
 
+![image](https://github.com/chancejl/test/blob/master/color.png)
